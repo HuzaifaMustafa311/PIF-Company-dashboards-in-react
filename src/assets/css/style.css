@@ -1,0 +1,531 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "barlow", sans-serif;
+  background: #1e2f28;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-barlow font-bold;
+  /* Use bold for headings */
+}
+
+/* Other elements use regular weight by default */
+*,
+p,
+span,
+div {
+  @apply font-barlow;
+  /* Apply regular for most elements */
+}
+
+.text-danger1 {
+  color: #D03030 !important;
+}
+
+.bg-green-1 {
+  background: #398148;
+}
+
+.bg-green-2 {
+  background: #00ffd2;
+}
+
+.bg-green-3 {
+  background: #18aa90;
+}
+
+.bg-green-4 {
+  background: #c4984f;
+}
+
+.color-green-1 {
+  color: #398148;
+}
+
+.color-green-2 {
+  color: #00ffd2;
+}
+
+.color-green-3 {
+  color: #18aa90;
+}
+
+.color-green-4 {
+  color: #c4984f;
+}
+
+.bg-green-5 {
+  background: #025d4d;
+}
+
+.navbarss {
+  background: #1b2a24;
+}
+
+.filter-section {
+  border-bottom: 2px solid #1A2823;
+}
+
+.filter-section {
+  .form-select {
+    background-color: #182620;
+    border: 1px solid #182620;
+    color: white;
+  }
+}
+
+.card {
+  .card-header {
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+.performance-cards {
+  .card-header {
+    background-color: #17241f;
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .original-budget-card {
+      .bg-imgdiv1 {
+        background-color: #025445;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .total-contracts-card {
+      .bg-imgdiv1 {
+        background-color: #025445;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .original-budget-card {
+      background-color: #025d4d;
+      border-radius: 10px;
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .approved-changes-card {
+      .bg-imgdiv2 {
+        background-color: #337441;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .total-contracts-card {
+      .bg-imgdiv2 {
+        background-color: #337441;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .revise-budget-card {
+      background-color: #c4984f;
+      border-radius: 10px;
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .revise-budget-card {
+      .bg-imgdiv3 {
+        background-color: #b08947;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .total-contracts-card {
+      .bg-imgdiv3 {
+        background-color: #b08947;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .planned-value-card {
+      background-color: #217833;
+      border-radius: 10px;
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .planned-value-card {
+      .bg-imgdiv1 {
+        background-color: #1e6c2e;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .earned-value-card {
+      background-color: #14907a;
+      border-radius: 10px;
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .earned-value-card {
+      .bg-imgdiv2 {
+        background-color: #12826e;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .schedule-variance-card {
+      background-color: #293b34;
+      border-radius: 10px;
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .schedule-variance-card {
+      .bg-imgdiv3 {
+        background-color: #25352f;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .card {
+    .card-body {
+      .title-text {
+        min-height: 40px;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .revise-budget-card {
+      .bg-imgdiv3 {
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .approved-changes-card {
+      background-color: #398148;
+      border-radius: 10px;
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    background-color: #1e2d27;
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .card-body {
+      .card {
+        min-height: 190px;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .card-body {
+      .total-contracts-card {
+        min-height: 0;
+        border-radius: 10px;
+        padding: 32px;
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .phase-text {
+      background: #182620;
+
+      span {
+        padding: 0px 8px 0px 9px;
+      }
+    }
+
+    .phase-percent {
+      font-size: 22px;
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .card-body {
+      .donut-chart {
+        height: 185px;
+        width: 240px;
+      }
+
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .kpi-body {
+      .kpi-heading {
+        font-size: 19px;
+
+        .kpi-strong {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .kpi-body {
+      .custom-progress-bar {
+        background-color: #1a443a;
+        border-radius: 20px;
+
+        .progress-bar {
+          background-color: #18aa90;
+        }
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .contractors-table {
+      .custom-progress-bar {
+        background-color: #1a443a;
+        border-radius: 20px;
+
+        .progress-bar {
+          background-color: #045A4B;
+        }
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .contractors-table {
+      .custom-progress-bar1 {
+        background-color: #1a443a;
+        border-radius: 20px;
+
+        .progress-bar {
+          background-color: #18aa90;
+        }
+      }
+    }
+  }
+}
+
+.cards-sections {
+  .performance-cards {
+    .contractors-table {
+      .custom-progress-bar2 {
+        background-color: #3a3d29;
+        border-radius: 20px;
+
+        .progress-bar {
+          background-color: #c4984f;
+        }
+      }
+    }
+  }
+}
+
+.card-gradient-background {
+  background: linear-gradient(111.35deg, rgba(4, 90, 75, 0.3) 2.7%, rgba(30, 47, 40, 0) 20.67%, rgba(4, 90, 75, 0.26) 50.77%, #045A4B 94.07%, #045A4B 99.8%);
+}
+
+.header-bottom-gradient {
+  border: 2px solid transparent;
+  /* Specify the border and make the color transparent */
+  border-image-source: linear-gradient(90deg, rgba(196, 152, 79, 0) 0%, #C4984F 50.11%, rgba(196, 152, 79, 0) 100%);
+  border-image-slice: 1;
+  /* This cuts the border image */
+}
+
+.dased-border {
+  border: 2px dashed rgba(255, 255, 255, 0.04);
+}
+
+.summary1 {
+  background: linear-gradient(111.35deg, rgba(4, 90, 75, 0.3) 2.7%, rgba(30, 47, 40, 0) 20.67%, rgba(4, 90, 75, 0.26) 50.77%, #045A4B 94.07%, #045A4B 99.8%);
+}
+
+.summary-other {
+  background: linear-gradient(111.35deg, rgba(4, 90, 75, 0.28) 2.7%, rgba(30, 47, 40, 0) 12.9%, rgba(4, 90, 75, 0.26) 50.77%, rgba(30, 46, 39, 0) 87.18%, rgba(4, 90, 75, 0.3) 99.8%);
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f1f1f;
+  border-radius: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C4984F;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f3f;
+}
+
+/* CustomScrollbar.css */
+/* Define the scrollbar styles */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #bcbbbb;
+  border-radius: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C4984F;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #C4984F;
+}
+
+.before-contract-div {
+  border: 1px solid;
+  border-image-source: linear-gradient(113.29deg, rgba(38, 58, 50, 0) 2.62%, #045A4B 100%);
+  border-image-slice: 1;
+  /* border-radius: 0 0 20px 20px; */
+}
+
+.shadow-custom {
+  box-shadow: 6px 6px 6px 0px #011C17 inset;
+}
+
+.range-slider .range-slider__thumb {
+  height: 12px;
+  width: 12px;
+}
+
+.range-slider .range-slider__thumb,
+.range-slider .range-slider__range {
+  background: #c4984f;
+}
+
+.contractors-table {
+  thead {
+    border: none;
+
+    tr {
+      border: none;
+
+      th {
+        border-color: transparent;
+        background-color: #0f4338;
+        color: #85C8BC;
+      }
+    }
+
+  }
+
+  td {
+    background-color: #ffffff;
+    color: #6B9483;
+  }
+
+  tbody {
+
+    tr:nth-child(even) {
+      border: 1px solid;
+      border-image-source: linear-gradient(113.29deg, rgba(38, 58, 50, 0) 2.62%, #045A4B 100%);
+      border-image-slice: 1;
+
+      td {
+        background: #182620 !important;
+      }
+    }
+
+    tr:nth-child(odd) {
+      border: 1px solid;
+      border-image-source: linear-gradient(113.29deg, rgba(38, 58, 50, 0) 2.62%, #045A4B 100%);
+      border-image-slice: 1;
+
+      td {
+        background: #1b2a24 !important;
+      }
+    }
+  }
+
+}
